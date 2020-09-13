@@ -42,7 +42,6 @@ export default function App() {
           screenOptions={({route}) => ({
             tabBarIcon: ({focused, color, size}) => {
               let iconName;
-
               if (route.name === 'Home') {
                 iconName = 'home';
               } else {
